@@ -1,0 +1,67 @@
+.main{
+    width: 90rem;
+    height: 45rem;
+    background: var(--color-black);
+   
+    @media (max-width: 768px) {
+      width: 100%; 
+      padding: 0 1rem;
+      max-width: 90rem;
+      margin: 0 auto;
+    }
+}
+
+.container{
+    margin: 0 15.625rem 0 15.625rem;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-shrink: 0;
+        padding: 2.625rem 0rem;
+    
+        .buttonSair{
+            display: inline-flex;
+            height: 2.50688rem;
+            padding: 0rem 1.01519rem;
+            justify-content: center;
+            align-items: center;
+            gap: 0.6345rem;
+            flex-shrink: 0;
+            border-radius: 0.25rem;
+            background: var(--color-grey-3);
+            color: var(--color-white);
+        }
+    }
+    
+    .paragraphy{
+        font-family: 'Inter', sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        color: var(--color-grey-0);
+    
+        display: flex;
+        width: 90rem;
+        height: 7.375rem;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+    }
+    
+    h2{
+        font-family: 'Inter', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--color-grey-0);
+        margin-top: 0.875rem;
+    }
+    
+    span{
+        font-family: 'Inter', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: var(--color-grey-0);
+    }
+}
+

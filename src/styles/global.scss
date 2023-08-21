@@ -1,0 +1,18 @@
+:root {
+    --color-primary: rgba(255, 87, 127, 1);
+    --color-primary-focus:rgba(255, 66, 127, 1);
+    --color-primary-disable:rgba(89, 50, 63, 1);
+    --color-grey-0:rgba(248, 249, 250, 1);
+    --color-grey-1: rgba(134, 142, 150, 1);
+    --color-grey-2: rgba(52, 59, 65, 1);
+    --color-grey-3: rgba(33, 37, 41, 1);
+    --color-grey-50: rgba(134, 142, 150, 1);
+    --color-black: rgba(18, 18, 20, 1);
+    --color-white:rgba(255, 255, 255, 1);
+    --color-negative:rgba(232, 63, 91, 1);
+    --color-sucess:rgba(63, 232, 100, 1);
+  }
+  
+  * {
+    font-family: 'Inter', sans-serif;
+  }

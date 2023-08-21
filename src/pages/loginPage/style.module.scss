@@ -1,0 +1,60 @@
+.backgroundFormContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--color-black);
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.375rem;
+  padding: 2.625rem 1.375rem;
+  border-radius: 0.25rem;
+  background: rgba(52, 59, 65, 1);
+  box-shadow: 0px 4px 40px -10px rgba(0, 0, 0, 0.25);
+  width: 100%; 
+  
+  @media (min-width: 320px) {
+    max-width: 350px; 
+  }
+
+  input {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    border: 1.218px solid var(--color-grey-2);
+    background: rgba(134, 142, 150, 1);
+  }
+}
+
+.header {
+  margin: 0.3rem 0 2.5rem 0;
+}
+
+h2 {
+  text-align: center;
+  color: var(--color-grey-0);
+}
+
+.passwordContainer {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.showHideButtonposition {
+  position: absolute;
+  top: 1.55rem;
+  right: 1.375rem; 
+  font-size: 1.5rem;
+}
+
+.link {
+  text-align: center;
+  color: var(--color-grey-0);
+  text-decoration: none;
+  margin-top: 1rem;
+}
